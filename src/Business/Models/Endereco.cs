@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DevIO.Business.Models
 {
@@ -15,8 +11,7 @@ namespace DevIO.Business.Models
         public string Bairro { get; set; }
         public string Cidade { get; set; }
         public string Estado { get; set; }
-
         public Fornecedor Fornecedor { get; set; }
-
+        public Guid FornecedorId { get; set; }
     }
 }
